@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AndroidUIPractice</string>
+    <string name="all_lights">All Lights</string>
+    <string name="lights_on">ON</string>
+    <string name="lights_off">OFF</string>
+    <string name="living_room">Living Room</string>
+    <string name="bed_room">Bed Room</string>
+    <string name="kitchen">Kitchen</string>
+    <string name="library">Library</string>
+    <string name="light">Lights</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="sensor">Sensors</string>
+</resources>

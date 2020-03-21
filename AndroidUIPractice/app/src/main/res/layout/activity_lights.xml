@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_marginTop="100dp"
+    android:background="@color/colorBlack"
+    android:id="@+id/lights_layout">  <!--main layout-->
+
+    <!--first part-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical"
+        android:background="@color/colorAccent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/all_lights"
+            android:textColor="@color/colorWhite"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:padding="15dp"/>
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lightson"
+            android:layout_gravity="center"
+            android:background="@color/colorAccent"/>
+        <TextView
+            android:id="@+id/on1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lights_on"
+            android:textColor="@color/colorWhite"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:padding="15dp"/>
+
+    </LinearLayout>
+    <!-- end of first part -->
+
+
+    <!--second part-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <!--second's left part-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            tools:ignore="NestedWeights"
+            android:layout_margin="5dp"
+            android:background="@color/colorAccent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="@string/living_room"
+                android:textColor="@color/colorWhite"
+                android:textSize="24sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/colorAccent"
+                android:src="@drawable/lightson" />
+
+            <TextView
+                android:id="@+id/on2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="@string/lights_on"
+                android:textColor="@color/colorWhite"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+        <!-- end of second's left part-->
+
+        <!--second's right part-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            android:background="@color/colorAccent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="@string/bed_room"
+                android:textColor="@color/colorWhite"
+                android:textSize="24sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/colorAccent"
+                android:src="@drawable/lightson" />
+
+            <TextView
+                android:id="@+id/on3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="@string/lights_on"
+                android:textColor="@color/colorWhite"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+        <!-- end of second's right part-->
+    </LinearLayout>
+    <!-- end of second part-->
+
+
+    <!--third part-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <!--third's left part-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            tools:ignore="NestedWeights"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/colorAccent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="@string/kitchen"
+                android:textColor="@color/colorWhite"
+                android:textSize="24sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/colorAccent"
+                android:src="@drawable/lightsoff" />
+
+            <TextView
+                android:id="@+id/off1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="@string/lights_off"
+                android:textColor="@color/colorWhite"
+                android:textSize="24sp" />
+        </LinearLayout>
+        <!-- end of third's left part-->
+
+        <!--third's right part-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/colorAccent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="@string/library"
+                android:textColor="@color/colorWhite"
+                android:textSize="24sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/colorAccent"
+                android:src="@drawable/lightsoff" />
+
+            <TextView
+                android:id="@+id/off2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="@string/lights_off"
+                android:textColor="@color/colorWhite"
+                android:textSize="24sp" />
+        </LinearLayout>
+        <!-- end of third's right part-->
+    </LinearLayout>
+    <!-- end of third part-->
+</LinearLayout>
+    <!-- end of main layout-->
